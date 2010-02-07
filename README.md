@@ -2,9 +2,7 @@
 
 **Author** : Wally Glutton - http://stungeye.com
 
-**Summary** : A hungry swarm indeed!
-
-**Boid Algo** : [http://www.vergenet.net/~conrad/boids/pseudocode.html](http://www.vergenet.net/~conrad/boids/pseudocode.html)
+**Summary** : A hungry swarm indeed! A flocking simulation à la [Boids](http://www.vergenet.net/~conrad/boids/pseudocode.html).
 
 **Notes** : My home-rolled Vector class appears to be quicker than the matrix library Vectors.
 
@@ -13,6 +11,10 @@
 **Get Shoes** : [http://github.com/shoes/shoes#readme](http://github.com/shoes/shoes#readme)
 
 **Learn Shoes** : [http://cloud.github.com/downloads/shoes/shoes/nks.pdf](http://cloud.github.com/downloads/shoes/shoes/nks.pdf)
+
+**Original Processing Sketch** : [@ Open Processing](http://openprocessing.org/visuals/?visualID=7493)
+
+**Lua Port** : [http://github.com/iamwilhelm/frock](http://github.com/iamwilhelm/frock)
 
 **License** : This is free and unencumbered software released into the public domain.
 
