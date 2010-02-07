@@ -16,7 +16,7 @@
 
 **Lua Port** : [http://github.com/iamwilhelm/frock](http://github.com/iamwilhelm/frock)
 
-**License** : This is free and unencumbered software released into the public domain.
+**License** : This is free and unencumbered software released into the public domain. (See LICENSE.txt)
 
 
 **Change Log** :    
