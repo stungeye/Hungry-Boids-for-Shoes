@@ -1,26 +1,38 @@
-Hungry Boids v0.6 - A Shoes Application
+**Hungry Boids v0.6 - A Shoes Application**
 
-Author       : Wally Glutton - http://stungeye.com
-Summary      : A hungry swarm indeed!
+**Author** : Wally Glutton - http://stungeye.com
 
-Boid Algo    : http://www.vergenet.net/~conrad/boids/pseudocode.html
-Notes        : My home-rolled Vector class appears to be quicker than the matrix library Vectors.
+**Summary** : A hungry swarm indeed!
 
-Required     : You must have Shoes installed to view the boids.
-Get Shoes    : http://github.com/shoes/shoes#readme
-Learn Shoes  : http://cloud.github.com/downloads/shoes/shoes/nks.pdf
+**Boid Algo** : [http://www.vergenet.net/~conrad/boids/pseudocode.html](http://www.vergenet.net/~conrad/boids/pseudocode.html)
 
-License      : This is free and unencumbered software released into the public domain.
+**Notes** : My home-rolled Vector class appears to be quicker than the matrix library Vectors.
 
-Change Log   :    v0.1 - The initial swarm.
-                  v0.2 - Replaced custom random method with (min..max).rand
-                       - Mouse clicks add food. Careful not to add too much.
+**Required** : You must have Shoes installed to view the boids.
+
+**Get Shoes** : [http://github.com/shoes/shoes#readme](http://github.com/shoes/shoes#readme)
+
+**Learn Shoes** : [http://cloud.github.com/downloads/shoes/shoes/nks.pdf](http://cloud.github.com/downloads/shoes/shoes/nks.pdf)
+
+**License** : This is free and unencumbered software released into the public domain.
+
+
+**Change Log** :    
+
+v0.1 - The initial swarm.
+
+v0.2 - Replaced custom random method with (min..max).rand
+- Mouse clicks add food. Careful not to add too much.
+
 Magnus Adamsson   v0.3 - Seems Shoes 0.r646 can no longer draw a zero radius circle
+
 Wally  Glutton    v0.4 - No longer using a $app global to access Shoes methods within the Food and Boid classes.
-                       - Moved class definitions above Shoes.app block as this was causing a problem for OSX builds.
-                       - Decreased the Stay Visible Damper by 50.
-                       - Fixed some spelling errors.
-                       - Assigned explicit app title, height & width.
+- Moved class definitions above Shoes.app block as this was causing a problem for OSX builds.
+- Decreased the Stay Visible Damper by 50.
+- Fixed some spelling errors.
+- Assigned explicit app title, height & width.
+
 Wally Glutton     v0.5 - In Shoes Raisins an oval :radius now acutally defines its radius, and not the diameter like in early versions of Shoes.
-                       - Changed all references to RADIUS to DIAMETER and draw oval using :width.
-                  v0.6 - Changed license from CC Attribution to Public Domain.
+- Changed all references to RADIUS to DIAMETER and draw oval using :width.
+
+v0.6 - Changed license from CC Attribution to Public Domain.
